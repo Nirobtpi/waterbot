@@ -1,0 +1,36 @@
+ @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 85%;
+    margin: auto;
+    // background: red;
+    // height: auto;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+ // color plate
+ $ColorBlue:#1089FF;
+ $ColorBlack:#000000;
+ $ColorWgite:#FFFFFF;
+ $ColorText:#888884;
+
+ @import'top-header';
+ @import'nav';
+ @import'hero';
+ @import'hero2';
+ @import'expreance';
+ @import'overly';
+ @import'destination';
+ @import'site-section';
+ @import'responsive';

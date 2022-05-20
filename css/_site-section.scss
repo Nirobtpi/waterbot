@@ -1,0 +1,103 @@
+#site-section{
+    width: 100%;
+    padding: 40px 0;
+    position: relative;
+    .row{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        .col-7{
+            flex-basis: 50%;
+            .thumbel-img{
+                img{
+                    width: 600px;
+                    height: 400px;
+                    margin-top: 50px;
+                }
+            }
+        }
+
+        .col-5{
+            flex-basis: 45%;
+
+            .site-content{
+                margin-top: 10%;
+                h4{
+                    font-size: 14px;
+                    color: $ColorBlue;
+                    font-style: italic;
+                    font-weight: 400;
+                    margin-top: 15px;
+                }
+                h2{
+                    margin-top: 15px;
+                    font-weight: 500;
+                    margin-bottom: 30px;
+
+                    span{
+                        width: 70px;
+                        height: 50px;
+                        border-bottom: 2px solid $ColorBlue;
+                        display: inline-block;
+                        margin-top: -5px;
+                        position: absolute;
+                        margin-left: -12%;
+                    }
+                }
+            }
+            .row{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                flex-wrap: wrap;
+                // position: relative;
+                .col-6{
+                    flex-basis: 50%;
+                    label{
+                        font-size: 18px;
+                        font-weight: 300;
+                    }
+                    input{
+                        width: 200px;
+                        height: 40px;
+                        border: 1px solid #ddd;
+                        border-radius: 4px;
+                        margin-top: 10px;
+                        margin-bottom: 10px;
+                        &:focus{
+                            border: $ColorWgite;
+                        }
+                    }
+                   
+                }
+            }
+        }
+    }
+
+    #text-area{
+        .row{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            .col{
+                position: relative;
+                flex-basis: 50%;
+                label{
+                    font-size: 20px;
+                    position: absolute;
+                    margin-left: 50px;
+                }
+                textarea{
+                    margin-top: 30px;
+                    margin-left: 50px;
+                    height: 992px auto;
+                    width: 80%;
+
+                    
+                }
+            }
+        }
+    }
+}
